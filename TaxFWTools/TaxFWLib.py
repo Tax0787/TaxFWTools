@@ -35,3 +35,8 @@ class ClassFW:
                 self.updater(*argv)
             case _:
                 return self.mode(mode,*argv)
+    def mode(self,mode:str,*argv):
+        char='No More Mode'
+        print(char)
+        return char
+    pass
